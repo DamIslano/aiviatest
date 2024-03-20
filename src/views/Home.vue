@@ -48,7 +48,6 @@
 				label="E-mail"
 				required
 				class="mb-4 w-50 mx-auto text-white"
-				@focus="v$.email.$dirty = false"
 			></v-text-field>
 			<v-text-field
 				v-model="state.password"
@@ -58,7 +57,6 @@
 				type="password"
 				required
 				class="w-50 mx-auto text-white"
-				@focus="v$.password.$dirty = false"
 			></v-text-field>
 			<v-btn
 				class="me-4 mt-4"
